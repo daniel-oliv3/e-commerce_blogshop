@@ -1,0 +1,9 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Libre+Franklin:wght@100&family=Open+Sans:wght@700&family=Poppins:wght@100;300;500&display=swap');
