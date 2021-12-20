@@ -1,3 +1,11 @@
+:root {
+    --primary: #ff4545;
+    --white: #fff;
+    --black: #222;
+    --grey1: #3a3b3c;
+    --grey2: #828282;
+}
+
 *,
 *::before,
 *::after {
@@ -7,3 +15,36 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Libre+Franklin:wght@100&family=Open+Sans:wght@700&family=Poppins:wght@100;300;500&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--white);
+    color: var(--white);
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 144rem;
+}
